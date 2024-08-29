@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{cd75f6eb-b036-4fee-aef0-85820319f744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{05e2efc5-4e3e-4dd5-9855-a36e62121f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\MinHook">
+      <UniqueIdentifier>{06e4bc64-5adb-47ca-8d87-b750b0a8fbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\OpenGL">
+      <UniqueIdentifier>{f57dcc9c-2e2e-44fa-ae51-53623c64a332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{1ecbee2d-c90a-418b-9994-2beb279c5e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ImGUI">
+      <UniqueIdentifier>{d9e55cec-701b-42c1-bb9a-3740c6631c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MinHook">
+      <UniqueIdentifier>{3c2b1231-21bd-42dd-aa11-cd6f94b79325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Hook">
+      <UniqueIdentifier>{72301445-56db-4db2-9c2e-b14786d37b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\GUI">
+      <UniqueIdentifier>{151cde81-372d-472a-b40d-c3163298c297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_win32.cpp">
+      <Filter>Include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Hook.cpp">
+      <Filter>Src\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI.cpp">
+      <Filter>Src\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\minhook\MinHook.h">
+      <Filter>Include\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_win32.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Hook.h">
+      <Filter>Src\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GUI.h">
+      <Filter>Src\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\MinHook\libMinHook-x64-v141-md.lib">
+      <Filter>Lib\MinHook</Filter>
+    </Library>
+    <Library Include="lib\OpenGL\OpenGL32.Lib">
+      <Filter>Lib\OpenGL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
